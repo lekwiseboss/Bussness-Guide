@@ -1,0 +1,123 @@
+html{
+    font-size: 16px;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.4;
+    color: rgb(53, 52, 52);
+   
+  
+    
+
+
+}
+.container{
+    display: flex;
+}
+#main-doc{
+    text-align: left;
+    padding: 2em;
+    position: absolute;
+    margin-left: 310px;
+    
+}
+.nav-section header{
+    font-size: 1.6em;
+    text-align: center;
+}
+#navbar{
+margin: 0 ;
+padding: 0;
+height:100% ;
+
+   width: 20em;
+
+
+
+border-right: 5px solid rgba(0, 22, 22, 0.4);;
+position:fixed ;
+overflow-y:auto;
+  
+overflow-x: hidden;
+
+
+}
+#navbar ul li{
+    list-style: none;
+    margin: 0;
+    padding: 1em;
+    margin-left: -10px;
+    border-bottom:1px solid;
+    width: 100%;
+  
+}
+#navbar ul{
+    padding: 10px;
+    margin: 0;
+ 
+  
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: rgb(73, 72, 72);
+    font-weight: 400;
+}
+.main-section header{
+text-align: left;
+font-size: 2em;
+margin-top: 20px;
+
+}
+.details{
+    font-size:0.9em;
+    margin: 10px auto;
+}
+.main-section article{
+   padding:0px 20px;
+}
+@media screen and (max-width:800px) {
+    .container{
+        
+    }
+    #main-doc{
+        
+        padding: 1.em;
+        position: relative;
+        margin-top: 350px;
+       margin-left: auto;
+        overflow-y:hidden;
+          
+        overflow-x:none;
+
+        
+    }
+    #navbar ul{
+        padding: 5px;
+        margin: 0;
+     
+      
+    }
+    #navbar ul{
+        border: 2px solid rgba(0, 0, 0, 0.4);;
+    }
+    #navbar{
+        margin: 020px auto 0 auto ;
+        padding: 0;
+        max-height:350px;
+        
+           
+        
+        width:100%;
+        
+      
+        position:absolute ;
+        overflow-y:auto;
+          
+        overflow-x: hidden;
+        
+        
+        }
+}
